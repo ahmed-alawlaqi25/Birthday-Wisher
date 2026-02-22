@@ -1,4 +1,4 @@
-##################### Extra Hard Starting Project ######################
+
 import pandas as pd
 import random
 import datetime as dt
