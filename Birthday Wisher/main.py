@@ -23,7 +23,7 @@ current_time = dt.datetime.now()
 current_date = current_time.date()
 if (current_date.month == birth_day.month) and (current_date.day == birth_day.day):
     my_email = "xxw6gamer@gmail.com"
-    password = "oewb ygow oqfi mipg "
+    password = ""
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
         connection.login(user= my_email, password= password)
